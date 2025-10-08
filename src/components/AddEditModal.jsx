@@ -37,7 +37,6 @@ const AddEditItemModal = (props) => {
     }
     handleClose();
   };
-  console.log(currentItem,"currentItemcurrentItem")
   return (
     <Modal open={modalOpen} onClose={handleClose}>
       <Box sx={{ 
