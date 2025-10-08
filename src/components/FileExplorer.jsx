@@ -255,7 +255,7 @@ const FileExplorer = (props) => {
     console.log(props)
   return (
     <>
-    <Button variant="contained" onClick={(e)=>{handleAdd()}}>Add Folder data </Button>
+    <Button variant="contained" onClick={(e)=>{handleAdd()}}>Add Folder </Button>
 
       <RichTreeView
         items={props?.data?.FolderItems?.items || []}
